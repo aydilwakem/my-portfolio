@@ -2,6 +2,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import { seo } from "@/data/data";
 import Footer from "./components/Footer";
+import FloatingCVButton from "./components/FloatingCVButton";
 
 export const metadata = {
     title: `${seo.title}`,
@@ -26,12 +27,14 @@ export default function RootLayout({ children }) {
                     rel="stylesheet"
                 ></link>
             </head>
-            <body className={`antialiased overflow-auto`}>
+            {/* suppressHydrationWarning added below */}
+            <body className={`antialiased overflow-auto`} suppressHydrationWarning>
                 <div className="w-[100%] md:w-[700px] m-auto">
                     <Navbar />
                     {children}
                     <Footer />
                 </div>
+                <FloatingCVButton />
             </body>
         </html>
     );

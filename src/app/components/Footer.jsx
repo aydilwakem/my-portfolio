@@ -1,19 +1,19 @@
 export default function Footer() {
+    const currentYear = new Date().getFullYear();
+
     return (
-        <>
-            <div className="mt-20 p-4">
-                <p className="text-sm">© 2025. All rights reserved.</p>
-                <p className="text-xs">
-                    This site uses{" "}
-                    <a
-                        href="https://github.com/sachinbhujel/NextJS-Portfolio-Template"
-                        target="_blank"
-                        className="text-sm font-medium hover:underline"
-                    >
-                        NextJS Portfolio Template
-                    </a>{" "}
+        <footer className="mt-20 py-8 border-t border-base-200">
+            <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
+                <p className="text-sm opacity-70">
+                    © {currentYear} Barbie Jalandoni.
                 </p>
+                <a 
+                    href="mailto:jalandonibarbie940@gmail.com" 
+                    className="text-sm font-medium hover:underline"
+                >
+                    jalandonibarbie940@gmail.com
+                </a>
             </div>
-        </>
+        </footer>
     );
 }

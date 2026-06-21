@@ -1,14 +1,14 @@
 export const about = {
-    name: "Your Name",
-    role: "Your Profession",
-    about: "A minimal, clean portfolio template built with Next.js. Perfect for developers who want a simple yet professional online presence without the complexity.",
-    email: "your.email@example.com",
+    name: "Barbie Jalandoni",
+    role: "Software Engineer & Full-Stack Developer",
+    about: "Detail-oriented Software Engineer with hands-on experience architecting robust web applications using the TALL stack and MySQL. Proven track record in API integration, backend optimization, and automating enterprise workflows.",
+    email: "jalandonibarbie940@gmail.com",
 };
 
 export const seo = {
     title: `${about.name} | ${about.role}`,
-    description: "Minimal, clean Next.js portfolio template for developers seeking a simple, professional online presence without extra complexity.",
-    keywords: "portfolio, web developer, Next.js, developer portfolio, minimal portfolio",
+    description: "Portfolio of Barbie Jalandoni, a Software Engineer and Full-Stack Developer specializing in the TALL stack, backend optimization, and scalable web applications.",
+    keywords: "portfolio, software engineer, full-stack developer, TALL stack, Laravel, PHP, web developer, Barbie Jalandoni",
 }
 
 export const forms = {
@@ -16,12 +16,14 @@ export const forms = {
 }
 
 export const skills = [
-    { name: "Html", alt: "html logo", icon: "/html.svg" },
-    { name: "Css", alt: "css logo", icon: "/css.svg" },
-    { name: "Js", alt: "js logo", icon: "/js.svg" },
+    { name: "PHP", alt: "php logo", icon: "/php.svg" },
+    { name: "JavaScript", alt: "js logo", icon: "/js.svg" },
     { name: "Tailwind", alt: "tailwind logo", icon: "/tailwind.svg" },
-    { name: "React Js", alt: "react logo", icon: "/react.svg" },
-    { name: "Next Js", alt: "nextjs logo", icon: "/nextjs.svg" },
+    { name: "Alpine.js", alt: "alpinejs logo", icon: "/alpinejs.svg" },
+    { name: "Laravel", alt: "laravel logo", icon: "/laravel.svg" },
+    { name: "Livewire", alt: "livewire logo", icon: "/livewire.svg" },
+    { name: "MySQL", alt: "mysql logo", icon: "/mysql.svg" },
+    { name: "React Native", alt: "react native logo", icon: "/react.svg" },
 ];
 
 export const socials = {
@@ -34,70 +36,49 @@ export const socials = {
 export const projects = {
     pinProjects: [
         {
-            title: "Project 1",
-            description:
-                "A sleek, modern portfolio site to showcase your work and skills. Responsive design with smooth navigation and SEO optimization.",
-            tags: ["CSS", "React Js"],
-            link: "",
+            title: "RentFlow - Canopy Farm PH Management System",
+            description: "Architected a comprehensive web-based rental management platform using the TALL stack and MySQL. Integrated PayMongo API for secure real-time payments and automated booking workflows.",
+            tags: ["TALL Stack", "MySQL", "PayMongo API"],
+            link: "https://canopyfarmph.com/guest/homepage",
         },
         {
-            title: "Project 2",
-            description:
-                "A clean, minimal blog setup featuring dynamic content, category filters, and easy-to-read layouts. Perfect for sharing your ideas.",
-            tags: ["CSS", "React Js"],
-            link: "",
+            title: "PUP Taguig Admission System (PUPTAS)",
+            description: "Maintained and optimized the backend system architecture for a university admission portal. Resolved performance bottlenecks and ensured continuous uptime during high-traffic enrollment periods.",
+            tags: ["Laravel", "MySQL", "Backend"],
+            link: "https://pup-admission-system-staging.up.railway.app/",
         },
         {
-            title: "Project 3",
-            description:
-                "A fast and scalable online store with product listings, cart functionality, and seamless checkout experience. Built for performance.",
-            tags: ["CSS", "React Js"],
+            title: "Information Security Dashboards & Automations",
+            description: "Engineered scalable Google Apps Script automations for Information Assets collection across 150+ branches. Developed dynamic graphical dashboards visualizing Tenable and Qualys metrics. (NOTE: Project details are confidential and cannot be publicly shared.)",
+            tags: ["Google Apps Script", "Data Visualization", "Security"],
             link: "",
         },
     ],
     otherProjects: [
         {
-            title: "Project 4",
-            description:
-                "A sleek, modern portfolio site to showcase your work and skills. Responsive design with smooth navigation and SEO optimization.",
-            tags: ["CSS", "React Js"],
+            title: "QueueLink",
+            description: "A campus project involving a pitch structure addressing ethical considerations and privacy for student queuing systems.",
+            tags: ["System Design", "Ethics"],
             link: "",
-        },
-        {
-            title: "Project 5",
-            description:
-                "A clean, minimal blog setup featuring dynamic content, category filters, and easy-to-read layouts. Perfect for sharing your ideas.",
-            tags: ["CSS", "React Js"],
-            link: "",
-        },
-        {
-            title: "Project 6",
-            description:
-                "A fast and scalable online store with product listings, cart functionality, and seamless checkout experience. Built for performance.",
-            tags: ["CSS", "React Js"],
-            link: "",
-        },
+        }
     ],
 };
 
 export const experience = [
     {
-        title: "Frontend Developer at Tech Solutions",
-        description:
-            "Worked on building and maintaining responsive web applications using React.js and Next.js, improving UI performance and user experience.",
-        date: "15/01/2024",
+        title: "Information Security Management Intern at Asia United Bank",
+        description: "Engineered scalable automations to standardize asset collection across 150+ branches. Developed dynamic dashboards to visualize Tenable and Qualys metrics and verified firewall rule sets.",
+        date: "January 2026 – May 2026",
     },
     {
-        title: "Web Developer Intern at Creative Studio",
-        description:
-            "Assisted in designing website layouts, wrote clean HTML/CSS code, and collaborated with the team on JavaScript features for client projects.",
-        date: "10/06/2023",
+        title: "Backend Maintenance Developer at PUPTAS",
+        description: "Maintained and optimized backend system architecture using Laravel and MySQL. Monitored application server logs and reinforced database integrity to prevent crashes during peak enrollment.",
+        date: "August 2025 – May 2026",
     },
     {
-        title: "Junior Developer at Innovate Labs",
-        description:
-            "Developed and tested frontend components, optimized web pages for speed, and contributed to team code reviews and debugging sessions.",
-        date: "01/09/2022",
+        title: "Lead Developer & Project Manager at Canopy Farm PH",
+        description: "Architected a full rental management platform using the TALL stack. Spearheaded Agile development, optimized complex database queries, and integrated PayMongo API for online payments.",
+        date: "March 2023 – May 2026",
     },
 ];
 

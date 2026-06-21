@@ -2,13 +2,10 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { usePathname } from "next/navigation";
 
 export default function Navbar() {
     const [hideOnMobile, setHideOnMobile] = useState(true);
-    const pathname = usePathname();
     const [isDark, setIsDark] = useState(false);
-    const blogs = pathname === "/blogs";
 
     useEffect(() => {
         const savedTheme = localStorage.getItem("theme");
@@ -70,29 +67,7 @@ export default function Navbar() {
                                         Experience
                                     </Link>
                                 </li>
-                                <li>
-                                    <Link
-                                        href="/contact"
-                                        className="hover:underline"
-                                    >
-                                        Contact
-                                    </Link>
-                                </li>
                             </ul>
-
-                            <Link
-                                href="/blogs"
-                                className="hover:underline hidden sm:block"
-                            >
-                                Blogs
-                            </Link>
-
-                            <Link
-                                href={blogs ? "/" : "/blogs"}
-                                className="hover:underline block sm:hidden"
-                            >
-                                {blogs ? "Home" : "Blogs"}
-                            </Link>
                         </div>
                         <div className="flex items-center gap-2">
                             <button
