@@ -53,6 +53,12 @@ export const projects = {
             tags: ["Google Apps Script", "Data Visualization", "Security"],
             link: "",
         },
+        {
+            title: "Pawcasso (FPS Game)",
+            description: "Designed and executed targeted test cases for enemy AI and behaviors using Unity and Visual Studio. Validated 3D enemy asset state transitions, combat mechanics, and collision to ensure smooth performance.",
+            tags: ["Unity", "Visual Studio", "Blender", "QA Testing"],
+            link: "https://beetjuicer.itch.io/pawcasso",
+        },
     ],
     otherProjects: [
         {
